@@ -31,3 +31,13 @@ echo "#                       Install MongoDB                        #"
 echo "################################################################"
 bash $BASE/install-mongodb.sh
 echo "Installation of MongoDB complete"
+
+
+# cleanup
+echo "################################################################"
+echo "#                           Cleanup                            #"
+echo "################################################################"
+bash $BASE/cleanup.sh
+echo "Cleanup complete"
+
+echo "All installations complete"
