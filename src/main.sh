@@ -25,13 +25,19 @@ echo "################################################################"
 bash $BASE/install-docker.sh
 echo "Installation of Docker complete"
 
+# install docker-compose
+echo "################################################################"
+echo "#                   Install Docker Compose                     #"
+echo "################################################################"
+bash $BASE/install-docker-compose.sh
+echo "Installation of Docker Compose complete"
+
 # install mongodb
 echo "################################################################"
 echo "#                       Install MongoDB                        #"
 echo "################################################################"
 bash $BASE/install-mongodb.sh
 echo "Installation of MongoDB complete"
-
 
 # cleanup
 echo "################################################################"
